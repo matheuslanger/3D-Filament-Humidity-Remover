@@ -1,0 +1,2 @@
+Change Component Designator: OldDesignator=? NewDesignator=RELAY
+Change Net Name : Old Net Name=Net?_IN1-,IN2- New Net Name=NetPOWER_SUPPLY_02

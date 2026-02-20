@@ -1,0 +1,12 @@
+Replace Part BUTTON Chave Tact in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with Chave Tact from Altium_Library_Brasil.IntLib
+Replace Part DHT22 640445-4 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with 640445-4 from 640445-4.SchLib
+Replace Part H_BRIDGE KK_2.54_2vias in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with KK_2.54_2vias from Altium_Library_Brasil.IntLib
+Replace Part I2C I2C in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with I2C from I2C_LCD.SchLib
+Replace Part LCD LCD2X16 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with LCD2X16 from LCD2X16.IntLib
+Replace Part POTENTIOMETER KK_2.54_3vias in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with KK_2.54_3vias from Altium_Library_Brasil.IntLib
+Replace Part POWER_SUPPLY KK_2.54_2vias in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with KK_2.54_2vias from Altium_Library_Brasil.IntLib
+Replace Part R1 Res1 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with Res1 from Miscellaneous Devices.IntLib
+Replace Part Thermistor KK_2.54_2vias in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with KK_2.54_2vias from Altium_Library_Brasil.IntLib
+Replace Part U1 ESP32-DEVKIT-V1 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with ESP32-DEVKIT-V1 from ESP32-DEVKIT-V1.IntLib
+Replace Part U2 BOB-12009 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with BOB-12009 from BOB-12009.IntLib
+Replace Part U3 1-2199298-3 in D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\Sheet1.SchDoc with 1-2199298-3 from 1-2199298-3.IntLib

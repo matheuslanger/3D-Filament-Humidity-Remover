@@ -1,0 +1,28 @@
+Added Component: Designator=U3(DIPS762W60P254L1778H48N)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Centerline_Pitch"; Value = "2.54 mm[.1 in]"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=541057"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "EU_RoHS_Compliance"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "TE Connectivity"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "1-2199298-3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number_of_Positions"; Value = "14"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "PDIP-14 TE Connectivity / AMP"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Product_Type"; Value = "Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/1-2199298-3/TE%20Connectivity%20AMP%20Connectors/view-part/541057/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BACK_5V Pin=U3-1
+Added Pin To Net: NetName=FORWARD_LOGIC Pin=U3-2
+Added Pin To Net: NetName=NetU3_3 Pin=U3-3
+Added Pin To Net: NetName=NetU3_3 Pin=U3-4
+Added Pin To Net: NetName=BACK_LOGIC Pin=U3-5
+Added Pin To Net: NetName=BACK_LOGIC Pin=U3-6
+Added Pin To Net: NetName=GND Pin=U3-7
+Added Pin To Net: NetName=FORWARD_LOGIC Pin=U3-8
+Added Pin To Net: NetName=FORWARD_LOGIC Pin=U3-9
+Added Pin To Net: NetName=NetU3_10 Pin=U3-10
+Added Pin To Net: NetName=NetU3_10 Pin=U3-11
+Added Pin To Net: NetName=BACK_LOGIC Pin=U3-12
+Added Pin To Net: NetName=FORWARD_5V Pin=U3-13
+Added Pin To Net: NetName=5V Pin=U3-14
+Added Member To Class: ClassName=Sheet1 Member=Component U3

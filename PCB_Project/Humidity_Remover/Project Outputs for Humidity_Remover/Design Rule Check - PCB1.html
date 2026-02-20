@@ -1,0 +1,410 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<style type="text/css">
+		h1, h2, h3, h4, h5, h6 {
+			font-family : segoe ui;
+			color : black;
+			background-color : #EDE7D9;
+			padding: 0.3em;
+		}
+
+		h1 {
+			font-size: 1.2em;
+		}		
+
+		h2 {
+			font-size: 1.2em;
+		}
+
+		body {
+			font-family : segoe ui;
+		}
+
+		td, th {
+			padding: 0.5em;
+			text-align : left;
+			width: 10em;
+		}
+		th {
+			background-color : #EEEEEE;
+
+		}
+		th.column1, td.column1 {
+			text-align: left;
+			width : auto;
+		}
+		table {
+			width : 100%;
+			font-size: 0.9em;
+		}
+
+		.DRC_summary_header {
+			padding-bottom : 0.1em;
+			border : 0px solid black;
+			width: 100%;
+			align: left;
+		}
+
+		.DRC_summary_header_col1,
+		.DRC_summary_header_col2, 
+		.DRC_summary_header_col3 {
+			color : black;
+			font-size:100%;
+			padding : 0em;
+			padding-top : 0.2em;
+			padding-bottom 0.2em;
+			border : 0px solid black;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.DRC_summary_header_col1 {
+			font-weight: bold;
+			width: 8em;
+		}
+
+		.DRC_summary_header_col2 {
+			width: 0.1em;
+		
+		}
+
+		.DRC_summary_header_col3 {
+			width : auto;
+		}
+
+		.header_holder {
+		    Width = 100%;
+		    border = 0px solid green;
+		    padding = 0;
+		}
+
+
+		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3
+		{
+			left : 0;
+			top : 0;
+			padding: 0em;
+			padding-top : 0.1em;
+			border : 0px solid black;
+			width : 100%;
+			vertical-align: top;
+			text-align: left;
+		}
+
+		.front_matter_column1 {
+			width : 8em;
+			font-weight: bold;
+		}
+
+		.front_matter_column2 {
+			width: 0.1em;
+		}
+
+		.front_matter_column3 {
+			width : auto;
+		}
+
+		.total_column1, .total_column {
+			font-weight : bold;
+		}
+		.total_column1 {
+			text-align : left;
+		}
+		.warning, .error {
+			color : red;
+			font-weight : bold;
+		}
+		tr.onmouseout_odd {
+			background-color : #white;
+		}
+		tr.onmouseout_even { 
+			background-color : #FAFAFA;
+		}
+		tr.onmouseover_odd, tr.onmouseover_even { 
+			background-color : #EEEEEE;
+		} 
+		a:link, a:visited, .q a:link,.q a:active,.q {
+			color: #21489e; 
+		}
+		a:link.callback, a:visited.callback { 
+			color: #21489e;
+		}
+		a:link.customize, a:visited.customize {
+			color: #C0C0C0;
+			position: absolute; 
+			right: 10px;
+		}	
+		p.contents_level1 {
+			font-weight : bold;
+			font-size : 110%;
+			margin : 0.5em;
+		}
+		p.contents_level2 {
+			position : relative;
+			left : 20px;
+			margin : 0.5em;
+		}
+	</style><script type="text/javascript">
+		function coordToMils(coord) {
+			var number = coord / 10000;
+			
+			if (number != number.toFixed(3))
+				number = number.toFixed(3);
+
+			return number + 'mil'
+		}
+
+		function coordToMM(coord) {
+			var number = 0.0254 * coord / 10000;
+			
+			if (number != number.toFixed(4))
+				number = number.toFixed(4);
+			
+			return number + 'mm'
+		}
+	
+		function convertCoord(coordNode, units) {
+			for (var i = 0; i < coordNode.childNodes.length; i++) {
+				coordNode.removeChild(coordNode.childNodes[i]);
+			}
+
+			var coord = coordNode.getAttribute('value');
+			if (coord != null) {
+				if (units == 'mm') {
+					textNode = document.createTextNode(coordToMM(coord));
+					coordNode.appendChild(textNode);
+				} else if (units == 'mil') {
+					textNode = document.createTextNode(coordToMils(coord));		
+					coordNode.appendChild(textNode);	
+				}
+			}
+		}
+	
+		function convertUnits(unitNode, units) {
+			for (var i = 0; i < unitNode.childNodes.length; i++) {
+				unitNode.removeChild(unitNode.childNodes[i]);		
+			}
+		
+			textNode = document.createTextNode(units); 
+			unitNode.appendChild(textNode);
+		}
+	
+		function changeUnits(radio_input, units) {
+			if (radio_input.checked) {
+			
+				var elements = document.getElementsByName('coordinate');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertCoord(elements[i], units);
+					}
+				}
+	
+				var elements = document.getElementsByName('units');
+				if (elements) {
+					for (var i = 0; i < elements.length; i++) {
+						convertUnits(elements[i], units);
+					}
+				}
+			}
+		}
+	</script><title>Design Rule Verification Report</title>
+</head>
+<body onload=""><img ALT="Altium" src="
+			file://C:\Users\Public\Documents\Altium\AD21\Templates\AD_logo.png
+		"><h1>Design Rule Verification Report</h1>
+<table class="header_holder">
+<td class="column1">
+<table class="front_matter">
+<tr class="front_matter">
+<td class="front_matter_column1">Date:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">12/11/2023</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">1:22:05 PM</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Elapsed Time:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3">00:00:02</td>
+</tr>
+<tr class="front_matter">
+<td class="front_matter_column1">Filename:</td>
+<td class="front_matter_column2"></td>
+<td class="front_matter_column3"><a href="file:///D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc" class="file"><acronym title="D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc">D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc</acronym></a></td>
+</tr>
+</table>
+</td>
+<td class="column2">
+<table class="DRC_summary_header">
+<tr>
+<td class="DRC_summary_header_col1">Warnings:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3">0</td></tr>
+<tr>
+<td class="DRC_summary_header_col1">Rule Violations:</td>
+<td class="DRC_summary_header_col2"></td>
+<td class="DRC_summary_header_col3" style="color : red">22</td></tr>
+</table>
+</td>
+</table><a name="IDRRR55NP52CUGM1Q43XW2MPHMRF0MJSYCZG1OFGPBC4GMIYFHWPDL"><h2>Summary</h2></a><table>
+<tr>
+<th class="column1">Warnings</th>
+<th class="column2">Count</th>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">0</td>
+</tr>
+</table><br><table>
+<tr>
+<th class="column1">Rule Violations</th>
+<th class="column2">Count</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDB4PHRN4KLNPRNCLSUSI2G4ALDDVWQQA3JT3HMLKANDZFA2VWPZHM">Clearance Constraint (Gap=0.5mm) (All),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID1UMGBROCMME4JUNQ10ZV00TCGD3HTPCQKKCWWZJE5MG1X5JHFCCG">Short-Circuit Constraint (Allowed=No) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDCWXDWM4U5XVPPDHFZBRFFXOKDBOWS4CQUQH53WNFXVWV5O4TWKYE">Un-Routed Net Constraint ( (All) )</a></td>
+<td class="column2">2</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDB21COYGLRIGDBXOIPMW3VWMBDRXLCVZKQO3ZBPMIMVNGLVDILGO">Modified Polygon (Allow modified: No), (Allow shelved: No)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDVXKI5JBBWPB4GQBU5AY5FHP45HPD3QI2L5S1RELSBRQECEHD0QSC">Width Constraint (Min=0.2mm) (Max=1mm) (Preferred=0.2mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDJLNP0VZEC5INCASKTXHLQE0XGNDAZ1GWVCITPBDJ3DOT1LYHVOBB">Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDYMAYGDGZK3YGOOXY5RHVADVI5L4EATGTMXZ3HXJJXJODZBTAKDVH">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDD32AKBPA2MXKKIVEMJSDWLDN2NNREXFXPGZLX5NY2JB5U500F03L">Hole To Hole Clearance (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDPIFG1VSEEPXMNZB1EWNQKTTAQPZ2KZMN3SLAJOBX0YVAETUJT1WL">Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#IDHW0WDSZX4K25IUGDUUATUHJ4LLLBIRK4CSN1Y2JSJMYNW2N0HFSF">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</a></td>
+<td class="column2">4</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDIBPNAYJG3U2GNYAYMX0Y2BAEOMO5JUX1SUIGA3CO4T15PJ5O0JBD">Silk to Silk (Clearance=0.254mm) (All),(All)</a></td>
+<td class="column2">8</td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="#ID3EXVKDAKYNE2MSVJHAZ2GVQFCHQRZJK5AEUGFUOIPCGGQXCUZUJB">Net Antennae (Tolerance=0mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="#IDFTWOPLR54JF0NJOVFW2C2NSE4LF0VNKIDP00ALMXDSVXMCF0CB5">Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)</a></td>
+<td class="column2">0</td>
+</tr>
+<tr>
+<td style="font-weight : bold; text-align : right" class="column1">Total</td>
+<td style="font-weight : bold" class="column2">22</td>
+</tr>
+</table><br><a name="IDB4PHRN4KLNPRNCLSUSI2G4ALDDVWQQA3JT3HMLKANDZFA2VWPZHM"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Clearance Constraint (Gap=0.5mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2596.442mil|Location2.X=2632.825mil|Location1.Y=4102.151mil|Location2.Y=4116.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2596.442mil|Location2.X=2632.825mil|Location1.Y=4102.151mil|Location2.Y=4116.274mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.5mm) Between Arc (66.129mm,104.414mm) on Keep-Out Layer And Pad U1-(66.129mm,104.374mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2596.442mil|Location2.X=2632.825mil|Location1.Y=2253.726mil|Location2.Y=2267.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2596.442mil|Location2.X=2632.825mil|Location1.Y=2253.726mil|Location2.Y=2267.849mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.5mm) Between Arc (66.129mm,57.424mm) on Keep-Out Layer And Pad U1-(66.129mm,57.424mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561.403mil|Location2.X=3597.786mil|Location1.Y=4102.151mil|Location2.Y=4116.274mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561.403mil|Location2.X=3597.786mil|Location1.Y=4102.151mil|Location2.Y=4116.274mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.5mm) Between Arc (90.64mm,104.414mm) on Keep-Out Layer And Pad U1-(90.639mm,104.374mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561.403mil|Location2.X=3597.786mil|Location1.Y=2253.726mil|Location2.Y=2267.849mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3561.403mil|Location2.X=3597.786mil|Location1.Y=2253.726mil|Location2.Y=2267.849mil|Absolute=True">Clearance Constraint: (Collision &lt; 0.5mm) Between Arc (90.64mm,57.424mm) on Keep-Out Layer And Pad U1-(90.639mm,57.424mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDCWXDWM4U5XVPPDHFZBRFFXOKDBOWS4CQUQH53WNFXVWV5O4TWKYE"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Un-Routed Net Constraint ( (All) )</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2541.63mil|Location2.X=3628.37mil|Location1.Y=2630.803mil|Location2.Y=2717.543mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2541.63mil|Location2.X=3628.37mil|Location1.Y=2630.803mil|Location2.Y=2717.543mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U1-29(65.659mm,67.924mm) on Multi-Layer And Pad U1-2(91.059mm,67.924mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3996mil|Location2.X=4464mil|Location1.Y=2911mil|Location2.Y=2979mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3996mil|Location2.X=4464mil|Location1.Y=2911mil|Location2.Y=2979mil|Absolute=True">Un-Routed Net Constraint: Net GND Between Pad U2-GND_2(102.362mm,74.803mm) on Multi-Layer And Pad U2-GND_1(112.522mm,74.803mm) on Multi-Layer </acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDYMAYGDGZK3YGOOXY5RHVADVI5L4EATGTMXZ3HXJJXJODZBTAKDVH"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.824mil|Location2.X=2663.184mil|Location1.Y=4049.532mil|Location2.Y=4168.893mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.824mil|Location2.X=2663.184mil|Location1.Y=4049.532mil|Location2.Y=4168.893mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U1-(66.129mm,104.374mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.824mil|Location2.X=2663.184mil|Location1.Y=2201.107mil|Location2.Y=2320.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2543.824mil|Location2.X=2663.184mil|Location1.Y=2201.107mil|Location2.Y=2320.468mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U1-(66.129mm,57.424mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3508.785mil|Location2.X=3628.145mil|Location1.Y=4049.532mil|Location2.Y=4168.893mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3508.785mil|Location2.X=3628.145mil|Location1.Y=4049.532mil|Location2.Y=4168.893mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U1-(90.639mm,104.374mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3508.785mil|Location2.X=3628.145mil|Location1.Y=2201.107mil|Location2.Y=2320.468mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=3508.785mil|Location2.X=3628.145mil|Location1.Y=2201.107mil|Location2.Y=2320.468mil|Absolute=True">Hole Size Constraint: (3mm &gt; 2.54mm) Pad U1-(90.639mm,57.424mm) on Multi-Layer Actual Hole Size = 3mm</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDHW0WDSZX4K25IUGDUUATUHJ4LLLBIRK4CSN1Y2JSJMYNW2N0HFSF"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.058mil|Location2.X=2538.308mil|Location1.Y=2074.375mil|Location2.Y=2085.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.058mil|Location2.X=2538.308mil|Location1.Y=2074.375mil|Location2.Y=2085.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad R1-1(65.151mm,52.832mm) on Multi-Layer And Track (63.881mm,52.832mm)(64.11mm,52.832mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2291.692mil|Location2.X=2302.942mil|Location1.Y=2074.375mil|Location2.Y=2085.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2291.692mil|Location2.X=2302.942mil|Location1.Y=2074.375mil|Location2.Y=2085.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad R1-2(57.531mm,52.832mm) on Multi-Layer And Track (58.572mm,52.832mm)(58.801mm,52.832mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.058mil|Location2.X=2538.308mil|Location1.Y=1854.375mil|Location2.Y=1865.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2527.058mil|Location2.X=2538.308mil|Location1.Y=1854.375mil|Location2.Y=1865.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad R2-1(65.151mm,47.244mm) on Multi-Layer And Track (63.881mm,47.244mm)(64.11mm,47.244mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2291.692mil|Location2.X=2302.942mil|Location1.Y=1854.375mil|Location2.Y=1865.625mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2291.692mil|Location2.X=2302.942mil|Location1.Y=1854.375mil|Location2.Y=1865.625mil|Absolute=True">Silk To Solder Mask Clearance Constraint: (0.241mm &lt; 0.254mm) Between Pad R2-2(57.531mm,47.244mm) on Multi-Layer And Track (58.572mm,47.244mm)(58.801mm,47.244mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.241mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br><a name="IDIBPNAYJG3U2GNYAYMX0Y2BAEOMO5JUX1SUIGA3CO4T15PJ5O0JBD"><table>
+<tr>
+<th style="text-align : left" colspan="1" class="rule">Silk to Silk (Clearance=0.254mm) (All),(All)</th>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4666.924mil|Location2.X=4678.174mil|Location1.Y=4245.269mil|Location2.Y=4256.519mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4666.924mil|Location2.X=4678.174mil|Location1.Y=4245.269mil|Location2.Y=4256.519mil|Absolute=True">Silk To Silk Clearance Constraint: (0.09mm &lt; 0.254mm) Between Text "POWER_SUPPLY" (118.704mm,108.079mm) on Top Overlay And Track (118.626mm,100.183mm)(118.626mm,107.683mm) on Top Overlay Silk Text to Silk Clearance [0.09mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4767.714mil|Location2.X=4778.964mil|Location1.Y=4241.25mil|Location2.Y=4252.5mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4767.714mil|Location2.X=4778.964mil|Location1.Y=4241.25mil|Location2.Y=4252.5mil|Absolute=True">Silk To Silk Clearance Constraint: (0.121mm &lt; 0.254mm) Between Text "POWER_SUPPLY" (118.704mm,108.079mm) on Top Overlay And Track (118.626mm,107.683mm)(124.376mm,107.683mm) on Top Overlay Silk Text to Silk Clearance [0.121mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4892.96mil|Location2.X=4904.21mil|Location1.Y=4242.89mil|Location2.Y=4254.14mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=4892.96mil|Location2.X=4904.21mil|Location1.Y=4242.89mil|Location2.Y=4254.14mil|Absolute=True">Silk To Silk Clearance Constraint: (0.215mm &lt; 0.254mm) Between Text "POWER_SUPPLY" (118.704mm,108.079mm) on Top Overlay And Track (124.376mm,100.183mm)(124.376mm,107.683mm) on Top Overlay Silk Text to Silk Clearance [0.215mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2389.381mil|Location2.X=2400.631mil|Location1.Y=2051.346mil|Location2.Y=2062.596mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2389.381mil|Location2.X=2400.631mil|Location1.Y=2051.346mil|Location2.Y=2062.596mil|Absolute=True">Silk To Silk Clearance Constraint: (0.154mm &lt; 0.254mm) Between Text "R1" (60.833mm,52.451mm) on Top Overlay And Track (58.801mm,52.07mm)(63.881mm,52.07mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2389.381mil|Location2.X=2400.631mil|Location1.Y=2097.404mil|Location2.Y=2108.654mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2389.381mil|Location2.X=2400.631mil|Location1.Y=2097.404mil|Location2.Y=2108.654mil|Absolute=True">Silk To Silk Clearance Constraint: (0.154mm &lt; 0.254mm) Between Text "R1" (60.833mm,52.451mm) on Top Overlay And Track (58.801mm,53.594mm)(63.881mm,53.594mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2384.383mil|Location2.X=2395.633mil|Location1.Y=1831.346mil|Location2.Y=1842.596mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2384.383mil|Location2.X=2395.633mil|Location1.Y=1831.346mil|Location2.Y=1842.596mil|Absolute=True">Silk To Silk Clearance Constraint: (0.154mm &lt; 0.254mm) Between Text "R2" (60.706mm,46.863mm) on Top Overlay And Track (58.801mm,46.482mm)(63.881mm,46.482mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_odd" onmouseover="className = 'onmouseover_odd'" onmouseout="className = 'onmouseout_odd'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2384.383mil|Location2.X=2395.633mil|Location1.Y=1877.404mil|Location2.Y=1888.654mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2384.383mil|Location2.X=2395.633mil|Location1.Y=1877.404mil|Location2.Y=1888.654mil|Absolute=True">Silk To Silk Clearance Constraint: (0.154mm &lt; 0.254mm) Between Text "R2" (60.706mm,46.863mm) on Top Overlay And Track (58.801mm,48.006mm)(63.881mm,48.006mm) on Top Overlay Silk Text to Silk Clearance [0.154mm]</acronym></a><br></td>
+</tr>
+<tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
+<td class="column1"><a href="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2181.075mil|Location2.X=2192.325mil|Location1.Y=2902.89mil|Location2.Y=2914.14mil|Absolute=True" class="callback"><acronym title="dxpprocess://PCB:Zoom?document=D:\www\Humidity_Remover\PCB_Project\Humidity_Remover\PCB1.PcbDoc;viewname=PCBEditor;Action=AREA_DYNAMICZOOM|Location1.X=2181.075mil|Location2.X=2192.325mil|Location1.Y=2902.89mil|Location2.Y=2914.14mil|Absolute=True">Silk To Silk Clearance Constraint: (0.203mm &lt; 0.254mm) Between Text "Thermistor 1" (55.373mm,74.041mm) on Top Overlay And Track (54.503mm,73.525mm)(62.003mm,73.525mm) on Top Overlay Silk Text to Silk Clearance [0.203mm]</acronym></a><br></td>
+</tr>
+</table></a><hr color="#EEEEEE"><a href="#top" style="font-size: 0.9em">Back to top</a><br><br></body>
+</html>

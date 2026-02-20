@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=FAN_DIRECTION Pin=RELAY-15
+Removed Pin From Net: NetName=FAN_DIRECTION Pin=RELAY-16
+Added Pin To Net: NetName=FAN_DIRECTION_5V Pin=RELAY-15
+Added Pin To Net: NetName=FAN_DIRECTION_5V Pin=RELAY-16
+Added Member To Class: ClassName=Sheet1 Member=Component 10K MFR-25FBF52-10K

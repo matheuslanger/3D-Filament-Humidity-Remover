@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=GND Pin=DHT22-4
+Change Component Footprint: Designator=DHT22 Old Footprint=MOLEX_0530470410 New Footprint=KK_3vias_180º
+Change Component Comment : Designator=DHT22 Old Comment=0530470410 New Comment=KK_2.54_3vias
+Change component parameters: Designator = "DHT22" ("DHT22"); Footprint = "MOLEX_0530470410"; UniqueID = "\ZLBFWSHZ" ("\ZLBFWSHZ")
+Change component parameters (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Modelo"; Value = "3 vias - 180º"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Valor"; Value = "KK 3 vias 180º"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=DHT22-3

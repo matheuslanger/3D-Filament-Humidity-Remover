@@ -1,0 +1,3 @@
+Removed Pin From Net: NetName=5V Pin=DHT22-01
+Added Pin To Net: NetName=3.3V Pin=DHT22-01
+Added Member To Class: ClassName=Sheet1 Member=Component 10K MFR-25FBF52-10K

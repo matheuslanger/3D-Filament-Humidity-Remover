@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=BUTTON_PIN Pin=BUTTON-4
+Change Component Footprint: Designator=BUTTON Old Footprint=Chave TACT New Footprint=KK_2VIAS_180º
+Change Component Comment : Designator=BUTTON Old Comment=Chave Tact New Comment=KK_2.54_2vias
+Change Component Designator: OldDesignator=LCD_CON NewDesignator=LCD
+Change component parameters: Designator = "BUTTON" ("BUTTON"); Footprint = "Chave TACT"; UniqueID = "\HUKLITFN" ("\HUKLITFN")
+Change component parameters (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=BUTTON_PIN Pin=BUTTON-1

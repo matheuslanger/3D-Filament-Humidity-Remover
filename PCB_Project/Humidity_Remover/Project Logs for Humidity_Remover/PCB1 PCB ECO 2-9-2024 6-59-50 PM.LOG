@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=3.3V Pin=R2-1
+Removed Pin From Net: NetName=THERMISTOR2_PIN Pin=R2-2
+Removed Member From Class: ClassName=Sheet1 Member=R2
+Change Component Footprint: Designator=R1 Old Footprint=AXIAL-0.3 New Footprint=RESAD1100W55L680D260
+Change Component Comment : Designator=R1 Old Comment=Res1 New Comment=MFR-25FBF52-10K
+Change Component Designator: OldDesignator=R1 NewDesignator=10K
+Change component parameters: Designator = "R1" ("10K"); Footprint = "AXIAL-0.3"; UniqueID = "\ZZUXULXG" ("\ZZUXULXG")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-10K/Yageo/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "MFR-25FBF52-10K"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Axial Yageo"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/MFR-25FBF52-10K/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-10K/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=10K(RESAD1100W55L680D260)
+Add component (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-10K/Yageo/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "MFR-25FBF52-10K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "Axial Yageo"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/MFR-25FBF52-10K/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/MFR-25FBF52-10K/Yageo/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=10K-1
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=10K-2
+Added Member To Class: ClassName=Sheet1 Member=Component 10K

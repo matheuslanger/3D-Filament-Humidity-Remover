@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=FAN_LI Pin=LEFT_FANS-01
+Added Pin To Net: NetName=FAN_LE Pin=LEFT_FANS-02
+Added Pin To Net: NetName=FAN_RI Pin=RIGHT_FANS-01
+Added Pin To Net: NetName=FAN_RE Pin=RIGHT_FANS-02
+Added Member To Class: ClassName=Sheet1 Member=Component 10K MFR-25FBF52-10K

@@ -1,0 +1,228 @@
+Added Component: Designator=?(DC-BRICK)
+Add component (AddParameter): Name = "DeviceName"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "MP1584"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "MP1584-dc-brick"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "DC-BRICK"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "MP1584"; VariantName = "[No Variations]"
+Added Component: Designator=DHT22(VALCON_XH250-03S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-03S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=ENCODER(VALCON_XH250-05S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-05S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-05S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-05S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=H_BRIDGE(VALCON_XH250-02S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-02S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=LCD(MOLEX_0530470410)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "0530470410"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/0530470410/Molex/view-part/470052/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=LEFT_FANS(VALCON_XH250-03S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-03S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=POWER_SUPPLY(VALCON_XH250-02S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-02S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO254P1054X469X1930-3)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IRLZ44N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-220-3 Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO254P1054X469X1930-3)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IRLZ44N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-220-3 Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q3(TO254P1054X469X1930-3)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IRLZ44N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-220-3 Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R1(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=R2(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=RELAY(DIP-P8)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Relay; 8 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DIP-P8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=RIGHT_FANS(VALCON_XH250-03S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-03S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-03S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Thermistor 1(VALCON_XH250-02S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-02S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Thermistor 2(VALCON_XH250-02S-010)
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Valcon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "XH250-02S-010"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/XH250-02S-010/Valcon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=U1(MODULE_ESP32_DEVKIT_V1)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Do it"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKIT-V1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=ENCODER-02
+Added Pin To Net: NetName=3.3V Pin=R1-1
+Added Pin To Net: NetName=3.3V Pin=R2-1
+Added Pin To Net: NetName=3.3V Pin=U1-1
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=DHT22-01
+Added Pin To Net: NetName=5V Pin=LCD-2
+Added Pin To Net: NetName=5V Pin=RELAY-7
+Added Pin To Net: NetName=5V Pin=U1-30
+Added Pin To Net: NetName=5V Pin=?-OUT1+
+Added Pin To Net: NetName=5V Pin=?-OUT2+
+Added Net: Name=5V
+Added Pin To Net: NetName=12V Pin=POWER_SUPPLY-01
+Added Pin To Net: NetName=12V Pin=RELAY-1
+Added Pin To Net: NetName=12V Pin=RELAY-4
+Added Pin To Net: NetName=12V Pin=?-IN1+
+Added Pin To Net: NetName=12V Pin=?-IN2+
+Added Net: Name=12V
+Added Pin To Net: NetName=DHT_PIN Pin=DHT22-02
+Added Pin To Net: NetName=DHT_PIN Pin=U1-3
+Added Net: Name=DHT_PIN
+Added Pin To Net: NetName=ENCODER_CLK Pin=ENCODER-05
+Added Pin To Net: NetName=ENCODER_CLK Pin=U1-8
+Added Net: Name=ENCODER_CLK
+Added Pin To Net: NetName=ENCODER_DT Pin=ENCODER-04
+Added Pin To Net: NetName=ENCODER_DT Pin=U1-5
+Added Net: Name=ENCODER_DT
+Added Pin To Net: NetName=ENCODER_SWITCH Pin=ENCODER-03
+Added Pin To Net: NetName=ENCODER_SWITCH Pin=U1-4
+Added Net: Name=ENCODER_SWITCH
+Added Pin To Net: NetName=FAN_DIRECTION_5V Pin=Q3-2
+Added Pin To Net: NetName=FAN_DIRECTION_5V Pin=RELAY-8
+Added Net: Name=FAN_DIRECTION_5V
+Added Pin To Net: NetName=FAN_DIRECTION Pin=Q3-1
+Added Pin To Net: NetName=FAN_DIRECTION Pin=U1-23
+Added Net: Name=FAN_DIRECTION
+Added Pin To Net: NetName=FAN_L1 Pin=LEFT_FANS-01
+Added Pin To Net: NetName=FAN_L1 Pin=RELAY-2
+Added Net: Name=FAN_L1
+Added Pin To Net: NetName=FAN_L2 Pin=LEFT_FANS-02
+Added Pin To Net: NetName=FAN_L2 Pin=RELAY-3
+Added Net: Name=FAN_L2
+Added Pin To Net: NetName=FAN_LEFT_RETURN Pin=LEFT_FANS-03
+Added Pin To Net: NetName=FAN_LEFT_RETURN Pin=Q1-2
+Added Net: Name=FAN_LEFT_RETURN
+Added Pin To Net: NetName=FAN_R1 Pin=RELAY-5
+Added Pin To Net: NetName=FAN_R1 Pin=RIGHT_FANS-01
+Added Net: Name=FAN_R1
+Added Pin To Net: NetName=FAN_R2 Pin=RELAY-6
+Added Pin To Net: NetName=FAN_R2 Pin=RIGHT_FANS-02
+Added Net: Name=FAN_R2
+Added Pin To Net: NetName=FAN_RIGHT_RETURN Pin=Q2-2
+Added Pin To Net: NetName=FAN_RIGHT_RETURN Pin=RIGHT_FANS-03
+Added Net: Name=FAN_RIGHT_RETURN
+Added Pin To Net: NetName=GND Pin=DHT22-03
+Added Pin To Net: NetName=GND Pin=ENCODER-01
+Added Pin To Net: NetName=GND Pin=LCD-1
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=GND Pin=Q3-3
+Added Pin To Net: NetName=GND Pin=Thermistor 1-02
+Added Pin To Net: NetName=GND Pin=Thermistor 2-02
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=GND Pin=?-OUT1-
+Added Pin To Net: NetName=GND Pin=?-OUT2-
+Added Net: Name=GND
+Added Pin To Net: NetName=LEFT_FAN Pin=Q1-1
+Added Pin To Net: NetName=LEFT_FAN Pin=U1-27
+Added Net: Name=LEFT_FAN
+Added Pin To Net: NetName=Net?_IN1-,IN2- Pin=POWER_SUPPLY-02
+Added Pin To Net: NetName=Net?_IN1-,IN2- Pin=?-IN1-
+Added Pin To Net: NetName=Net?_IN1-,IN2- Pin=?-IN2-
+Added Net: Name=Net?_IN1-,IN2-
+Added Pin To Net: NetName=PELTIER_BLACK_SIDE Pin=H_BRIDGE-01
+Added Pin To Net: NetName=PELTIER_BLACK_SIDE Pin=U1-9
+Added Net: Name=PELTIER_BLACK_SIDE
+Added Pin To Net: NetName=PELTIER_RED_SIDE Pin=H_BRIDGE-02
+Added Pin To Net: NetName=PELTIER_RED_SIDE Pin=U1-10
+Added Net: Name=PELTIER_RED_SIDE
+Added Pin To Net: NetName=RIGHT_FAN Pin=Q2-1
+Added Pin To Net: NetName=RIGHT_FAN Pin=U1-28
+Added Net: Name=RIGHT_FAN
+Added Pin To Net: NetName=SCL Pin=LCD-4
+Added Pin To Net: NetName=SCL Pin=U1-14
+Added Net: Name=SCL
+Added Pin To Net: NetName=SDA Pin=LCD-3
+Added Pin To Net: NetName=SDA Pin=U1-11
+Added Net: Name=SDA
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=R1-2
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=Thermistor 1-01
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=U1-24
+Added Net: Name=THERMISTOR1_PIN
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=R2-2
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=Thermistor 2-01
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=U1-25
+Added Net: Name=THERMISTOR2_PIN
+Added Class: Name=Sheet1
+Added Room: Name=Sheet1

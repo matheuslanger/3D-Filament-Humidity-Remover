@@ -1,0 +1,12 @@
+Removed Pin From Net: NetName=5V Pin=I2C_IN-1
+Removed Pin From Net: NetName=GND Pin=I2C_IN-2
+Removed Pin From Net: NetName=SDA Pin=I2C_IN-3
+Removed Pin From Net: NetName=SCL Pin=I2C_IN-4
+Change Component Comment : Designator=LCD Old Comment=LCD2X16 New Comment=
+Added Pin To Net: NetName=SCL Pin=I2C-17
+Added Pin To Net: NetName=SDA Pin=I2C-18
+Added Pin To Net: NetName=GND Pin=I2C-19
+Added Pin To Net: NetName=5V Pin=I2C-20
+Added Member To Class: ClassName=Sheet1 Member=Component I2C
+Added Member To Class: ClassName=Sheet1 Member=Component U1 ESP32
+Added Room: Name=Sheet1

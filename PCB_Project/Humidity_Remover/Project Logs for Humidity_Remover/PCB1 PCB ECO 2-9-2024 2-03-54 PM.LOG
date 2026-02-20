@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=Q1 NewDesignator=MOS_L
+Change Component Designator: OldDesignator=Q2 NewDesignator=MOS_R
+Change Component Designator: OldDesignator=Q3 NewDesignator=MOS_D
+Added Member To Class: ClassName=Sheet1 Member=Component LCD XH250-04S-010
+Added Room: Name=Sheet1

@@ -1,0 +1,3 @@
+Change Component Designator: OldDesignator=RELAY NewDesignator=MP1854
+Change Net Name : Old Net Name=NetPOWER_SUPPLY_02 New Net Name=NetMP1854_IN1-,IN2-
+Added Member To Class: ClassName=Sheet1 Member=Component MP1854 MP1584-dc-brick-pcb Step down Input: 4.5V - 28V Ouput 0.8V - 25V max. 3A Cheap on ebay

@@ -1,0 +1,207 @@
+Added Component: Designator=10k(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=10k(AXIAL-0.3)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Axial Device, Thru-Hole; 2 Leads; 0.3 in Pin Spacing"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "AXIAL-0.3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1K"; VariantName = "[No Variations]"
+Added Component: Designator=BUTTON(KK_2VIAS_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=DHT22(KK_3vias_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "3 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 3 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=H_BRIDGE(KK_2VIAS_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=K?(DIP-P8)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Relay; 8 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DIP-P8"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=LCD(MOLEX_0530470410)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "0530470410"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/0530470410/Molex/view-part/470052/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=MP1584(PCBComponent_1)
+Added Component: Designator=POTENTIOMETER(KK_3vias_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "3 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 3 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=POWER SUPPLY(KLD-0202)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://domino.kycon.com/internet/Products.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetDocument"; Value = "09-May-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Q1(TO254P1054X469X1930-3)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IRLZ44N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-220-3 Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Q2(TO254P1054X469X1930-3)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "IRLZ44N"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "TO-220-3 Infineon / IR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/IRLZ44N/Infineon/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S?(DPDT-6)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Switch; 6 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "DPDT-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=S?(SOT23-6_N)
+Add component (AddParameter): Name = "Code_IPC"; Value = "SOT26A-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Code_JEITA"; Value = "SC-74"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "29-May-2009"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "IPC-7351 Footprint Added."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "6-Pin SOT-23 Package 0.95 mm Pitch, 2.7 mm Lead Span"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "SOT23-6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Mar-2001"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "24-Mar-1999"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=Thermistor 1(KK_2VIAS_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=Thermistor 2(KK_2VIAS_180º)
+Add component (AddParameter): Name = "Descrição"; Value = "Conector KK 3 vias com passo 2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Encapsulamento"; Value = "PTH - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Marca"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Modelo"; Value = "2 vias - 180º"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Observação"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Valor"; Value = "KK 2 vias 180º"; VariantName = "[No Variations]"
+Added Component: Designator=U1(MODULE_ESP32_DEVKIT_V1)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Do it"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKIT-V1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=10k-1
+Added Pin To Net: NetName=3.3V Pin=10k-1
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=10k-2
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=10k-2
+Added Pin To Net: NetName=BUTTON_PIN Pin=BUTTON-1
+Added Pin To Net: NetName=GND Pin=BUTTON-2
+Added Pin To Net: NetName=5V Pin=DHT22-1
+Added Pin To Net: NetName=DHT_PIN Pin=DHT22-2
+Added Pin To Net: NetName=GND Pin=DHT22-3
+Added Pin To Net: NetName=GND Pin=LCD-1
+Added Pin To Net: NetName=5V Pin=LCD-2
+Added Pin To Net: NetName=SDA Pin=LCD-3
+Added Pin To Net: NetName=SCL Pin=LCD-4
+Added Pin To Net: NetName=GND Pin=MP1584-3
+Added Pin To Net: NetName=GND Pin=MP1584-3
+Added Pin To Net: NetName=5V Pin=MP1584-4
+Added Pin To Net: NetName=5V Pin=MP1584-4
+Added Pin To Net: NetName=5V Pin=POTENTIOMETER-1
+Added Pin To Net: NetName=POT_PIN Pin=POTENTIOMETER-2
+Added Pin To Net: NetName=GND Pin=POTENTIOMETER-3
+Added Pin To Net: NetName=GND Pin=Q1-3
+Added Pin To Net: NetName=GND Pin=Q2-3
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=Thermistor 1-1
+Added Pin To Net: NetName=GND Pin=Thermistor 1-2
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=Thermistor 2-1
+Added Pin To Net: NetName=GND Pin=Thermistor 2-2
+Added Pin To Net: NetName=3.3V Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=DHT_PIN Pin=U1-3
+Added Pin To Net: NetName=POT_PIN Pin=U1-4
+Added Pin To Net: NetName=BUTTON_PIN Pin=U1-5
+Added Pin To Net: NetName=SDA Pin=U1-11
+Added Pin To Net: NetName=SCL Pin=U1-14
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=U1-24
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=U1-25
+Added Pin To Net: NetName=5V Pin=U1-30
+Added Pin To Net: NetName=12V Pin=MP1584-1
+Added Pin To Net: NetName=12V Pin=MP1584-1
+Added Pin To Net: NetName=12V Pin=POWER SUPPLY-1
+Added Pin To Net: NetName=12V Pin=POWER SUPPLY-1A
+Added Pin To Net: NetName=12V Pin=POWER SUPPLY-1B
+Added Net: Name=12V
+Added Pin To Net: NetName=FAN_DIRECTION Pin=U1-23
+Added Net: Name=FAN_DIRECTION
+Added Pin To Net: NetName=LEFT_FAN Pin=Q1-1
+Added Pin To Net: NetName=LEFT_FAN Pin=U1-21
+Added Net: Name=LEFT_FAN
+Added Pin To Net: NetName=NetMP1584_2 Pin=MP1584-2
+Added Pin To Net: NetName=NetMP1584_2 Pin=MP1584-2
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-2
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-2A
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-2B
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-3
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-3A
+Added Pin To Net: NetName=NetMP1584_2 Pin=POWER SUPPLY-3B
+Added Net: Name=NetMP1584_2
+Added Pin To Net: NetName=PELTIER_BLACK_SIDE Pin=H_BRIDGE-1
+Added Pin To Net: NetName=PELTIER_BLACK_SIDE Pin=U1-20
+Added Net: Name=PELTIER_BLACK_SIDE
+Added Pin To Net: NetName=PELTIER_RED_SIDE Pin=H_BRIDGE-2
+Added Pin To Net: NetName=PELTIER_RED_SIDE Pin=U1-19
+Added Net: Name=PELTIER_RED_SIDE
+Added Pin To Net: NetName=RIGHT_FAN Pin=Q2-1
+Added Pin To Net: NetName=RIGHT_FAN Pin=U1-22
+Added Net: Name=RIGHT_FAN
+Added Member To Class: ClassName=Sheet1 Member=Component 10k Res1
+Added Member To Class: ClassName=Sheet1 Member=Component 10k Res1
+Added Member To Class: ClassName=Sheet1 Member=Component BUTTON KK_2.54_2vias
+Added Member To Class: ClassName=Sheet1 Member=Component DHT22 KK_2.54_3vias
+Added Member To Class: ClassName=Sheet1 Member=Component H_BRIDGE KK_2.54_2vias
+Added Member To Class: ClassName=Sheet1 Member=Component K? Relay-DPDT
+Added Member To Class: ClassName=Sheet1 Member=Component LCD 0530470410
+Added Member To Class: ClassName=Sheet1 Member=Component MP1584
+Added Member To Class: ClassName=Sheet1 Member=Component POTENTIOMETER KK_2.54_3vias
+Added Member To Class: ClassName=Sheet1 Member=Component POWER SUPPLY PWR2.5
+Added Member To Class: ClassName=Sheet1 Member=Component Q1 IRLZ44N
+Added Member To Class: ClassName=Sheet1 Member=Component Q2 IRLZ44N
+Added Member To Class: ClassName=Sheet1 Member=Component S? SW-DPDT
+Added Member To Class: ClassName=Sheet1 Member=Component S? SW DPDT
+Added Member To Class: ClassName=Sheet1 Member=Component Thermistor 1 KK_2.54_2vias
+Added Member To Class: ClassName=Sheet1 Member=Component Thermistor 2 KK_2.54_2vias
+Added Member To Class: ClassName=Sheet1 Member=Component U1 ESP32
+Added Room: Name=Sheet1

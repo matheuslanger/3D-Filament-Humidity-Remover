@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=BUTTON_PIN Pin=BUTTON-4
+Change Component Footprint: Designator=BUTTON Old Footprint=Chave TACT New Footprint=KK_2VIAS_180º
+Change Component Comment : Designator=BUTTON Old Comment=Chave Tact New Comment=KK_2.54_2vias
+Change Component Designator: OldDesignator=LCD_CON NewDesignator=LCD
+Added Pin To Net: NetName=BUTTON_PIN Pin=BUTTON-1
+Added Member To Class: ClassName=Sheet1 Member=Component LCD 0530470410

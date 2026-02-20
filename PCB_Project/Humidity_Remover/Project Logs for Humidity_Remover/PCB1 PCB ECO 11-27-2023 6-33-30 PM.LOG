@@ -1,0 +1,13 @@
+Added Component: Designator=U4(MOLEX_0530470410)
+Add component (AddParameter): Name = "Availability"; Value = "Unavailable"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Molex"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "0530470410"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/0530470410/Molex/view-part/470052/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=U4-1
+Added Pin To Net: NetName=5V Pin=U4-2
+Added Pin To Net: NetName=SDA Pin=U4-3
+Added Pin To Net: NetName=SCL Pin=U4-4
+Added Member To Class: ClassName=Sheet1 Member=Component U4 0530470410

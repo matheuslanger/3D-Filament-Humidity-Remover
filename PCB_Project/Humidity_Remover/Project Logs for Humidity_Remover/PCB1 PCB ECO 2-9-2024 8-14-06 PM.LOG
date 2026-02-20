@@ -1,0 +1,28 @@
+Added Component: Designator=U1(MODULE_ESP32_DEVKIT_V1)
+Add component (AddParameter): Name = "Availability"; Value = "Not in stock"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "Do it"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "ESP32-DEVKIT-V1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ESP32-DEVKIT-V1/Do+it/view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=U1-1
+Added Pin To Net: NetName=GND Pin=U1-2
+Added Pin To Net: NetName=DHT_PIN Pin=U1-3
+Added Pin To Net: NetName=ENCODER_SWITCH Pin=U1-4
+Added Pin To Net: NetName=ENCODER_DT Pin=U1-5
+Added Pin To Net: NetName=ENCODER_CLK Pin=U1-8
+Added Pin To Net: NetName=PELTIER_BLACK_SIDE Pin=U1-9
+Added Pin To Net: NetName=PELTIER_RED_SIDE Pin=U1-10
+Added Pin To Net: NetName=SDA Pin=U1-11
+Added Pin To Net: NetName=SCL Pin=U1-14
+Added Pin To Net: NetName=FAN_DIRECTION Pin=U1-23
+Added Pin To Net: NetName=THERMISTOR1_PIN Pin=U1-24
+Added Pin To Net: NetName=THERMISTOR2_PIN Pin=U1-25
+Added Pin To Net: NetName=LEFT_FAN Pin=U1-27
+Added Pin To Net: NetName=RIGHT_FAN Pin=U1-28
+Added Pin To Net: NetName=GND Pin=U1-29
+Added Pin To Net: NetName=5V Pin=U1-30
+Added Member To Class: ClassName=Sheet1 Member=Component 10K MFR-25FBF52-10K
+Added Member To Class: ClassName=Sheet1 Member=Component U1 ESP32

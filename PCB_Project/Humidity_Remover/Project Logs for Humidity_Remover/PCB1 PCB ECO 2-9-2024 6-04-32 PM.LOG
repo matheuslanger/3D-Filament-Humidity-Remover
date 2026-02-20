@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=12V Pin=RELAY-1
+Removed Pin From Net: NetName=FAN_L1 Pin=RELAY-2
+Removed Pin From Net: NetName=FAN_L2 Pin=RELAY-3
+Removed Pin From Net: NetName=FAN_R1 Pin=RELAY-5
+Removed Pin From Net: NetName=FAN_R2 Pin=RELAY-6
+Removed Pin From Net: NetName=5V Pin=RELAY-7
+Removed Pin From Net: NetName=FAN_DIRECTION_5V Pin=RELAY-8
+Change Component DesignItemId : Designator=RELAY Old DesignItemId=Relay-DPDT New DesignItemId=DPDT_RELAY
+Change Component Footprint: Designator=RELAY Old Footprint=DIP-16 New Footprint=RELAY-2S
+Change Component Comment : Designator=RELAY Old Comment=Relay-DPDT New Comment=DPDT_RELAY
+Change Component Description : Designator=RELAY Old Description=Dual-Pole Dual-Throw Relay New Description=
+Change Component Library : Designator=RELAY Old Library=Miscellaneous Devices.IntLib New Library=DPDT_RELAY.SchLib
+Change component parameters: Designator = "RELAY" ("RELAY"); Footprint = "DIP-16"; UniqueID = "\VTFGXTJA" ("\VTFGXTJA")
+Added Pin To Net: NetName=5V Pin=RELAY-1
+Added Pin To Net: NetName=5V Pin=RELAY-2
+Added Pin To Net: NetName=12V Pin=RELAY-13
+Added Pin To Net: NetName=FAN_DIRECTION Pin=RELAY-15
+Added Pin To Net: NetName=FAN_DIRECTION Pin=RELAY-16
+Added Pin To Net: NetName=FAN_LE Pin=RELAY-8
+Added Net: Name=FAN_LE
+Added Pin To Net: NetName=FAN_LI Pin=RELAY-6
+Added Net: Name=FAN_LI
+Added Pin To Net: NetName=FAN_RE Pin=RELAY-11
+Added Net: Name=FAN_RE
+Added Pin To Net: NetName=FAN_RI Pin=RELAY-9
+Added Net: Name=FAN_RI
+Added Member To Class: ClassName=Sheet1 Member=Component RELAY DPDT_RELAY
