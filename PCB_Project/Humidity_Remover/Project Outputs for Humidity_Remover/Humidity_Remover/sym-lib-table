@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "I2C_LCD")(type "Altium")(uri "/home/langer/Desktop/3D-Filament-Humidity-Remover/PCB_Project/Humidity_Remover/I2C_LCD.SchLib")(options "")(descr ""))
+  (lib (name "Humidity_Remover-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Humidity_Remover-altium-import.kicad_sym")(options "")(descr ""))
+)

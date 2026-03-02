@@ -20,23 +20,23 @@ void setup() {
 }
 
 void loop() {
-  handleMainMenu();
+
   delay(500);
   Serial.println(analogRead(PWM_CONTROL));
-  // float humi = dht_sensor.readHumidity();
-  // float tempC = dht_sensor.readTemperature();
+  float humi = dht_sensor.readHumidity();
+  float tempC = dht_sensor.readTemperature();
 
-  // Serial.print(termValue(TERM1));
-  // Serial.print("\t");
-  // Serial.println(termValue(TERM2));
+  Serial.print(termValue(TERM1));
+  Serial.print("\t");
+  Serial.println(termValue(TERM2));
 
-  //  if (isnan(tempC) || isnan(humi))
-  //  {
-  //     Serial.println("ERROR");
-  //  }
-  //  else
-  //  {
-  //     Serial.println(tempC);
-  //     Serial.println(humi);
-  //  }
+   if (isnan(tempC) || isnan(humi))
+   {
+      Serial.println("ERROR");
+   }
+   else
+   {
+      Serial.println(tempC);
+      Serial.println(humi);
+   }
 }
